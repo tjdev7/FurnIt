@@ -1,0 +1,16 @@
+
+
+body,
+html {
+	background: black;
+}
+
+nav {
+	display: table;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+ul, li {
+	list-style-type: none;
+}
