@@ -1,16 +1,49 @@
-
-
 body,
 html {
-	background: black;
+    background: black;
 }
 
 nav {
-	display: table;
-	vertical-align: middle;
-	display: table-cell;
+    display: table;
+    vertical-align: middle;
+    display: table-cell;
 }
 
-ul, li {
-	list-style-type: none;
+ul,
+li {
+    list-style-type: none;
+}
+
+body,
+html {
+    background: #FAFAFA;
+}
+
+nav {
+    display: block;
+    vertical-align: middle;
+    /*top: 25%;
+        left: 25%;
+        transform: translate(-25%, -25%);
+        */
+    padding: 10px 0px 0px 120px;
+}
+
+ul,
+li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    margin-left: 50px;
+
+}
+
+footer {
+    background: red;
+}
+
+.glyphicon {
+    padding: 5px;
 }
