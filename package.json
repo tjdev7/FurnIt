@@ -1,6 +1,6 @@
 {
-  "name": "e-comm-store",
-  "version": "0.0.2",
+  "name": "FurnIt",
+  "version": "0.2.0",
   "description": "E commerce app demo",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,22 @@
   "bugs": {
     "url": "https://github.com/Toughee/e-comm-store/issues"
   },
-  "homepage": "https://github.com/Toughee/e-comm-store#readme"
+  "homepage": "https://github.com/Toughee/e-comm-store#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "react-hot-loader": "^4.12.21",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
