@@ -1,4 +1,11 @@
-# Type of PR
+# List of changes made:
+
+
+
+
+------------------------------------------------------------
+
+## Type of PR
 
 * New feature
 * Code cleaning
@@ -7,14 +14,14 @@
 
 ------------------------------------------------------------
 
-## PR description
+### PR description
 
-- [ ] Recent PR does not interfere with app functionality
-- [ ] Recent PR does not fail any tests
+- [] Recent PR does not interfere with app functionality
+- [] Recent PR does not fail any tests
 
 ------------------------------------------------------------
 
 <!---
 Example: 
-Fix|Update for Ecomm/PR-Number/name_of_fix
+Fix|Update for FurnIt/PR-Number/name_of_fix
 --->

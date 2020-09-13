@@ -49,13 +49,13 @@ let catalog = [
 	},
 	{
 		id: 0,
-		name: "Dresser set",
+		name: "Dresser set 1",
 		description: "",
 		price:
 	},
 	{
 		id: 0,
-		name: "Dresser set 1",
+		name: "Dresser set 2",
 		description: "",
 		price:
 	},
