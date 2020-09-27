@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          FurnIt- Catalog app
+          FurnIt- Furniture Catalog app | Items (0) | <i class='fas fa-shopping-cart'></i> Cart
         </p>
-
+        
       </header>
     </div>
   );
