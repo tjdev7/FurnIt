@@ -8,10 +8,11 @@
   /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
-  align-items: left;
+  
   /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: black;
+  padding: 15px;
   border-bottom: 10px solid yellow;
 }
 
@@ -19,4 +20,17 @@
   color: #61dafb;
 }
 
+.MenuList {
+  left: 0;
+  position: fixed;
+  margin: 5px;
+  padding-left: 15px;  
+}
 
+.Cart {
+  right: 0;
+  position: fixed;
+  margin: 5px;
+  padding-right: 15px;
+  opacity: .7;
+}

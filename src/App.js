@@ -5,9 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          FurnIt- Furniture Catalog app | Items (0) | <i class='fas fa-shopping-cart'></i> Cart
-        </p>
+        <span>
+          FurnIt- Furniture Catalog app 
+        </span>
+
+        <span className = "MenuList">
+          Items | Catalog
+        </span>
+       
+        <span className = "Cart">
+          <i class='fas fa-shopping-cart'></i> (0) Cart
+        </span>
         
       </header>
     </div>
