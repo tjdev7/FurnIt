@@ -4,16 +4,35 @@
 }
 
 .App-header {
-  background-color: #FAF5F4;
-  /*min-height: 100vh;*/
+  background-color: #FFF812;
   display: flex;
   flex-direction: column;
-  
-  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: black;
   padding: 15px;
-  border-bottom: 10px solid yellow;
+}
+
+
+/*
+  Component layout 
+*/
+
+.ItemDisplay{ 
+    padding: 50px;
+    text-align: left;
+}
+
+.ImgStyle {
+  width: 150px;
+  height: 150px;
+}
+
+/*
+  Fonts
+*/
+
+.ItemName {
+
 }
 
 .App-link {
