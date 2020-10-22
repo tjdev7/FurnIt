@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
   background-color: #FAF5F4;
@@ -8,7 +10,7 @@
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: #000000;
   padding: 15px;
 }
 
@@ -19,8 +21,15 @@
 ----------------------------------------
 */
 
+.bannerdefault {
+  width: 100%;
+  height: 150px;
+  background: #000000;
+ /* margin: 50px;*/
+}
+
 .ItemDisplay{ 
-    padding: 50px;
+    margin: 100px;
     text-align: left;
 }
 
@@ -49,6 +58,12 @@
 .ItemDisplay {
   border-bottom: 1px solid #FFF812;
   margin: 20px;
+}
+
+.CartAdd {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  margin: 5px;
 }
 
 
