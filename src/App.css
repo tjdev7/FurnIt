@@ -14,7 +14,9 @@
 
 
 /*
+----------------------------------------
   Component layout 
+----------------------------------------
 */
 
 .ItemDisplay{ 
@@ -23,16 +25,42 @@
 }
 
 .ImgStyle {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 }
 
-/*
-  Fonts
-*/
+.PriceStyle {
+  font-family: 'Impact';
+  color: #48FE2B;
+  font-size: 25px;
+}
 
 .ItemName {
+  font-size: 70px;
+  font-family: 'Staatliches', cursive;
+}
 
+.DescStyle {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.ItemDisplay {
+  border-bottom: 1px solid #FFF812;
+  margin: 20px;
+}
+
+
+/*
+------------------------------------------------------
+  Fonts
+-------------------------------------------------------
+*/
+
+.appname {
+  font-size: 35px;
+  font-family: 'Staatliches', cursive;
 }
 
 .App-link {
@@ -41,15 +69,17 @@
 
 .MenuList {
   left: 0;
-  position: fixed;
-  margin: 5px;
-  padding-left: 15px;  
+/*  position: fixed;*/
+  text-align: left;
+/*  margin: 5px;
+  padding-left: 15px;  */
 }
 
 .Cart {
   right: 0;
-  position: fixed;
-  margin: 5px;
-  padding-right: 15px;
+  text-align: right;
+/*  position: fixed;*/
+/*  margin: 5px;*/
+/*  padding-right: 15px;*/
   opacity: .7;
 }
