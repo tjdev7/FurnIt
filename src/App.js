@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import TestImg from './TestImg.png';
+import './bootstrap.css';
 
 function App() {
   return (
@@ -17,45 +18,134 @@ function App() {
         </span>
       </header>
 
-      <div className="ItemDisplay">
-        <img className="ImgStyle" src={TestImg} alt="TestImg" />
-        <span className="ItemName"> Item</span>
-        <br />
-        <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-        <br />
-        Etiam volutpat dolor id maximus rutrum. 
-        <br />
-        Donec sit amet faucibus augue. </span>
-        <br />
-        <span className="PriceStyle"> $000.00</span>
-      </div>
+      <main className="bannerdefault">
 
-      <div className="ItemDisplay">
-        <img className="ImgStyle" src={TestImg} alt="TestImg" />
-        <span className="ItemName"> Item</span>
-        <br />
-        <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-        <br />
-        Etiam volutpat dolor id maximus rutrum. 
-        <br />
-        Donec sit amet faucibus augue. </span>
-        <br />
-        <span className="PriceStyle"> $00.00</span>
-      </div>
+      </main>
 
-      <div className="ItemDisplay">
-        <img className="ImgStyle" src={TestImg} alt="TestImg" />
-        <span className="ItemName"> Item</span>
-        <br />
-        <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-        <br />
-        Etiam volutpat dolor id maximus rutrum. 
-        <br />
-        Donec sit amet faucibus augue. </span>
-        <br />
-        <span className="PriceStyle"> $00.00</span>
-      </div>
 
+      <span className="container">
+      <div className="row">
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $000.00</span>
+          <button className="CartAdd"> Add to cart</button>
+          
+        </div>
+
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $00.00</span>
+          <button className="CartAdd"> Add to cart</button>
+        </div>
+
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $00.00</span>
+          <button className="CartAdd"> Add to cart</button>
+          
+        </div>
+        </div>
+        </span>
+
+        <span className="container">
+      <div className="row">
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $000.00</span>
+          <button className="CartAdd"> Add to cart</button>
+        </div>
+
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $00.00</span>
+          <button className="CartAdd"> Add to cart</button>
+
+        </div>
+
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $00.00</span>
+          <button className="CartAdd"> Add to cart</button>
+        </div>
+        </div>
+        </span>
+
+        <span className="container">
+      <div className="row">
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $000.00</span>
+          <button className="CartAdd"> Add to cart</button>
+        </div>
+
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $00.00</span>
+          <button className="CartAdd"> Add to cart</button>
+
+        </div>
+
+        <div className="ItemDisplay col">
+          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <span className="ItemName"> Item</span>
+          <br />
+          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
+          Etiam volutpat dolor id maximus rutrum. 
+          Donec sit amet faucibus augue. </span>
+          <br />
+          <span className="PriceStyle"> $00.00</span>
+          <button className="CartAdd"> Add to cart</button>
+        </div>
+        </div>
+        </span>
     </div>
   );
 }
