@@ -1,4 +1,18 @@
-let catalog = [
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import TestImg from './TestImg.png';
+import testimg2 from './testimg2.jpg';
+import testimg5 from './testimg5.jpg';
+import testimg8 from './testimg8.jpg';
+
+function CatalogList() {catalog} {
+	return (
+		<CatalogDisplay />
+	);
+}
+
+var CatalogDisplay = [
 	{
 		id: 0,
 		name: "Dinner set 1",
