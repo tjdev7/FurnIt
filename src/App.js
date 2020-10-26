@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import TestImg from './TestImg.png';
 import testimg2 from './testimg2.jpg';
+import testimg3 from './testimg3.jpg';
+import testimg4 from './testimg4.jpg';
 import testimg5 from './testimg5.jpg';
+import testimg6 from './testimg6.jpg';
 import testimg8 from './testimg8.jpg';
 import './bootstrap.css';
 
@@ -14,7 +17,7 @@ function App() {
           FurnIt 
         </span>
         <span className = "MenuList">
-          Items | Catalog
+           Catalog
         </span>
         <span className = "Cart">
           <i className='fas fa-shopping-cart'></i> (0) Cart
@@ -36,7 +39,7 @@ function App() {
         </div>
 
         <div className="ItemDisplay col">
-          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <img className="ImgStyle" src={testimg3} alt="TestImg" />
           <span className="ItemName"> Item</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
@@ -65,7 +68,7 @@ function App() {
         <span className="container">
       <div className="row">
         <div className="ItemDisplay col">
-          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <img className="ImgStyle" src={testimg4} alt="TestImg" />
           <span className="ItemName"> Item</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
@@ -90,7 +93,7 @@ function App() {
         </div>
 
         <div className="ItemDisplay col">
-          <img className="ImgStyle" src={TestImg} alt="TestImg" />
+          <img className="ImgStyle" src={testimg6} alt="TestImg" />
           <span className="ItemName"> Item</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 

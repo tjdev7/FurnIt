@@ -1,42 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 function Navbar () {
 	return (
-
-		// Logo
-		// App title
-		// Item count
-		// Cart
-
+		<CatalogMenu/>
+		<AppTitle/>
+		<Cart/>
 	);
 }
 
-const User () {
-	
-}
-
-const AppLogo () {
-	return (
-
-	);
+const CatalogMenu () {
+	<span className = "MenuList">
+          Catalog
+    </span>	
 }
 
 const AppTitle() {
 	return(
-
+		<span className="appname">
+          FurnIt 
+        </span>
 	);
 }
 
-const ItemCount() {
+const Cart {
 	return (
-
+		<span className = "Cart">
+          <i className='fas fa-shopping-cart'></i> {item amount:0} Cart
+        </span>
+		
 	);
-}
+}        
 
-const cart {
-	return (
-		{item amount:0}
-	);
-}
+export default Navbar;
