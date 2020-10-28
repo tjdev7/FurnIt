@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import TestImg from './TestImg.png';
-import testimg2 from './testimg2.jpg';
-import testimg3 from './testimg3.jpg';
-import testimg4 from './testimg4.jpg';
-import testimg5 from './testimg5.jpg';
-import testimg6 from './testimg6.jpg';
-import testimg8 from './testimg8.jpg';
+import testimg2 from './img/testimg2.jpg';
+import testimg3 from './img/testimg3.jpg';
+import testimg4 from './img/testimg4.jpg';
+import testimg5 from './img/testimg5.jpg';
+import testimg6 from './img/testimg6.jpg';
+import testimg8 from './img/testimg8.jpg';
+import testimg9 from './img/testimg9.jpg';
+
 import './bootstrap.css';
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
       <div className="row">
         <div className="ItemDisplay col">
           <img className="ImgStyle" src={testimg2} alt="TestImg" />
-          <span className="ItemName"> Item</span>
+          <span className="ItemName"> Dresser Set</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 
@@ -40,7 +42,7 @@ function App() {
 
         <div className="ItemDisplay col">
           <img className="ImgStyle" src={testimg3} alt="TestImg" />
-          <span className="ItemName"> Item</span>
+          <span className="ItemName"> Persian Rug</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 
@@ -122,7 +124,7 @@ function App() {
 
         <div className="ItemDisplay col">
           <img className="ImgStyle" src={testimg8} alt="TestImg" />
-          <span className="ItemName"> Item</span>
+          <span className="ItemName"> Sofa set</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 
@@ -134,8 +136,8 @@ function App() {
         </div>
 
         <div className="ItemDisplay col">
-          <img className="ImgStyle" src={TestImg} alt="TestImg" />
-          <span className="ItemName"> Item</span>
+          <img className="ImgStyle" src={testimg9} alt="TestImg" />
+          <span className="ItemName"> Plate Set</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 

@@ -10,13 +10,15 @@ function Navbar () {
 }
 
 const CatalogMenu () {
-	<span className = "MenuList">
+	return (
+		<span className = "MenuList">
           Catalog
     </span>	
+	);
 }
 
 const AppTitle() {
-	return(
+	return (
 		<span className="appname">
           FurnIt 
         </span>

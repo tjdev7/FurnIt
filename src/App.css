@@ -6,7 +6,7 @@
 .App-header {
   background-color: #FFF812;
   font-size: calc(10px + 2vmin);
-  /*display: inline-block;*/
+  display: block;
   padding: 10px 30px;
 }
 
@@ -39,8 +39,7 @@
 }
 
 .ItemName {
-  font-size: 70px;
-  font-family: 'Staatliches', cursive;
+  font-size: 55px;
 }
 
 .DescStyle {
@@ -55,10 +54,15 @@
 }
 
 .CartAdd {
-  font-family: 'Staatliches', cursive;
   font-size: 20px;
   margin: 5px;
 }
+
+.ItemName,
+.CartAdd {
+  font-family: 'Staatliches', cursive;
+}
+
 
 /*
 ------------------------------------------------------
