@@ -66,8 +66,9 @@ code {
 }
 
 .ItemDisplay {
-  border-bottom: 1px solid #FFF812;
+  border-bottom: 5px solid #FFF812;
   margin: 20px;
+  padding-top: 5px;
 }
 
 .CartAdd {
