@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import TestImg from './img/TestImg.png';
 import testimg2 from './img/testimg2.jpg';
 import testimg3 from './img/testimg3.jpg';
 import testimg4 from './img/testimg4.jpg';
@@ -11,7 +10,6 @@ import testimg7 from './img/testimg7.jpg';
 import testimg8 from './img/testimg8.jpg';
 import testimg9 from './img/testimg9.jpg';
 import testimg10 from './img/testimg10.jpg';
-import './App.css';
 import './bootstrap.css';
 
 function CatalogDisplay() {
@@ -78,7 +76,7 @@ function CatalogDisplay() {
         <div className="ItemDisplay col">
           <img className="ImgStyle" src={testimg5} alt="TestImg" />
           <br />
-          <span className="ItemName"> Sofa Chair</span>
+          <span className="ItemName"> Outdoor sofa</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 
@@ -91,7 +89,7 @@ function CatalogDisplay() {
         <div className="ItemDisplay col">
           <img className="ImgStyle" src={testimg6} alt="TestImg" />
           <br />
-          <span className="ItemName">Minimalist chair</span>
+          <span className="ItemName">Sofa Chair</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 
@@ -105,7 +103,7 @@ function CatalogDisplay() {
         <div className="ItemDisplay col">
           <img className="ImgStyle" src={testimg7} alt="TestImg" />
           <br />
-          <span className="ItemName"> Item</span>
+          <span className="ItemName"> Minimalist Chair</span>
           <br />
           <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
           Etiam volutpat dolor id maximus rutrum. 

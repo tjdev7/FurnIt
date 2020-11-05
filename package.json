@@ -1,6 +1,6 @@
 {
-  "name": "Furnit",
-  "version": "0.1.11",
+  "name": "FurnIt",
+  "version": "0.1.12",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

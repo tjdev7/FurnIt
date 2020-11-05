@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Navbar () {
+class extends Navbar component () {
+	// render
 	return (
 		<CatalogMenu/>
 		<AppTitle/>

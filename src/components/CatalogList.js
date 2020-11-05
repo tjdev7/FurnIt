@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import TestImg from './img/TestImg.png';
 import testimg2 from './img/testimg2.jpg';
 import testimg3 from './img/testimg3.jpg';
@@ -13,56 +12,70 @@ import testimg9 from './img/testimg9.jpg';
 function CatalogList() {catalog} {
 	return (
 		<CatalogDisplay />
+
+		// {name}
+		// {description}
+		// {price}
 	);
 }
+
 
 var CatalogDisplay = [
 	{
 		id: 0,
 		name: "Dresser Set",
 		description: "",
-		price: 
+		price: $000.00
 	},
 	{
 		id: 1,
 		name: "Persian Rug",
 		description: "",
-		price:
+		price: $000.00
 	},
 	{
 		id: 2,
-		name: "dinner set 3",
+		name: "Minimalist lamp",
 		description: "",
-		price:
+		price: $000.00
 	},
 	{
 		id: 3,
 		name: "Minimalist lamp",
 		description: "",
-		price:
+		price: $000.00
 	},
 	{
 		id: 4,
 		name: "Outdoor Sofa",
 		description: "",
-		price:
+		price: $000.00
 	},
 	{
 		id: 5,
-		name: "mini sofa 1",
+		name: "Sofa Chair",
 		description: "",
-		price:
+		price: $000.00
 	},
 	{
 		id: 6,
-		name: "Sofa set",
+		name: "Minimalist Chair",
 		description: "",
-		price:
+		price: $000.00
 	},
 	{
 		id: 7,
-		name: "Plate Set",
+		name: "Plate set",
 		description: "",
-		price:
+		price: $000.00
+	},
+	{
+		id: 8,
+		name: "Dinner Set",
+		description: "",
+		price: $000.00
 	}
 ]
+
+
+export default CatalogList;
