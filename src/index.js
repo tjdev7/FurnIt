@@ -16,14 +16,16 @@ function CatalogDisplay() {
   return (
     <div className="App">
       <header className="App-header">
-        <span className="appname">
-          FurnIt 
-        </span>
         <span className = "MenuList">
            Catalog
         </span>
+        <span className="appname">
+          FurnIt 
+        </span>
         <span className = "Cart">
-          <i className='fas fa-shopping-cart'></i> (0) Cart
+          <button>
+            <i className='fas fa-shopping-cart'></i> (0) Cart
+          </button>      
         </span>
       </header>
       <main className="bannerdefault"></main>
@@ -34,11 +36,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Dresser Set</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  100% Hauge Wood Dresser. 3 panels   </span>
           <br />
-          <span className="PriceStyle"> $000.00</span>
+          <span className="PriceStyle"> $199.99</span>
           <button className="CartAdd"> Add to cart</button>
         </div>
 
@@ -47,11 +47,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Persian Rug</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  Made with traditional Persian weaving. Imported. 100% organic cloth</span>
           <br />
-          <span className="PriceStyle"> $00.00</span>
+          <span className="PriceStyle"> $695.95</span>
           <button className="CartAdd"> Add to cart</button>
         </div>
 
@@ -60,11 +58,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Minimalist lamp</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  Carbon based material. </span>
           <br />
-          <span className="PriceStyle"> $00.00</span>
+          <span className="PriceStyle"> $39.49</span>
           <button className="CartAdd"> Add to cart</button>
           
         </div>
@@ -78,11 +74,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Outdoor sofa</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle"> Weather proof to most elements </span>
           <br />
-          <span className="PriceStyle"> $000.00</span>
+          <span className="PriceStyle"> $249.99</span>
           <button className="CartAdd"> Add to cart</button>
         </div>
 
@@ -91,11 +85,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName">Sofa Chair</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  Uses new cotton polyester design for maximum comfortableness </span>
           <br />
-          <span className="PriceStyle"> $00.00</span>
+          <span className="PriceStyle"> $149.99</span>
           <button className="CartAdd"> Add to cart</button>
 
         </div>
@@ -105,11 +97,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Minimalist Chair</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  Comes in sets of 4, 5, 8, 10 or 15 </span>
           <br />
-          <span className="PriceStyle"> $00.00</span>
+          <span className="PriceStyle"> $59.99</span>
           <button className="CartAdd"> Add to cart</button>
         </div>
         </div>
@@ -122,11 +112,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Sofa</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  Made with 100% cotton </span>
           <br />
-          <span className="PriceStyle"> $000.00</span>
+          <span className="PriceStyle"> $599.99</span>
           <button className="CartAdd"> Add to cart</button>
         </div>
 
@@ -135,11 +123,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Plate set</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">  Greek design patterns. Volcanic cermamic </span>
           <br />
-          <span className="PriceStyle"> $00.00</span>
+          <span className="PriceStyle"> $19.99</span>
           <button className="CartAdd"> Add to cart</button>
 
         </div>
@@ -149,11 +135,9 @@ function CatalogDisplay() {
           <br />
           <span className="ItemName"> Dinner Set</span>
           <br />
-          <span className="DescStyle">  In vel arcu volutpat, tempor lorem eget, sollicitudin felis. 
-          Etiam volutpat dolor id maximus rutrum. 
-          Donec sit amet faucibus augue. </span>
+          <span className="DescStyle">A dinner set consisting of a solid maple wood chair and 4 colored, minimalist chairs. Comes in  black, yellow, silver, pseudo Wood, and pink</span>
           <br />
-          <span className="PriceStyle"> $00.00</span>
+          <span className="PriceStyle"> $499.99</span>
           <button className="CartAdd"> Add to cart</button>
         </div>
         </div>
@@ -161,6 +145,18 @@ function CatalogDisplay() {
     </div>
   );
 }
+
+// const ShoppingApp {
+
+//   const AddItem {
+
+//   }
+
+//   const removeItem {
+
+//   }
+
+// }
 
 ReactDOM.render(
   <React.StrictMode>
