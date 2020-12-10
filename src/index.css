@@ -46,7 +46,7 @@ code {
 }
 
 .PriceStyle {
-  font-family: 'Impact';
+  font-family: 'Helvetica', Bold;
   color: #48FE2B;
   font-size: 25px;
 }
@@ -81,7 +81,7 @@ code {
 */
 
 .appname {
-  font-size: 35px;
+  font-size: 6vw;
   font-family: 'Staatliches', cursive;
 }
 

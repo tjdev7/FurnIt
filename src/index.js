@@ -23,9 +23,7 @@ function CatalogDisplay() {
           FurnIt 
         </span>
         <span className = "Cart">
-          <button>
             <i className='fas fa-shopping-cart'></i> (0) Cart
-          </button>      
         </span>
       </header>
       <main className="bannerdefault"></main>
